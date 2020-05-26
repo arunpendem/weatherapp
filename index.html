@@ -18,8 +18,8 @@
                 <p id="dateAndTime">date</p>
                 <h1 id="climate">Climate condition</h1>
                 <h2 id="temp">Temperature</h2>
-                <button class="cel">&#8451</button>
-                <button class="fah">&#8457</button><br>
+                <button class="cel" onclick="getCelsius()">&#8451</button>
+                <button class="fah" onclick="getFahrenheit()">&#8457</button><br>
                 <label for="list">Select the city</select></label>
                 <select id="list">
                     <option value="Hyderabad,Telangana">Hyderabad,Telangana</option>
@@ -28,6 +28,7 @@
                     <option value="Agarthala,Tripura">Agarthala,Tripura</option>
                     <option value="Kohima,Nagaland">Kohima,Nagaland</option>
                 </select>
+                <input type="button" value="submit" onclick="getWeather()">
             </div>
         </div>
         <script src="app.js"></script>
