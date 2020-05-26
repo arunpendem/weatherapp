@@ -22,7 +22,7 @@ function getWeather(){
     document.getElementById("temp").innerText=weatherInSelectedCity.temperature;
     document.getElementById("city").innerText=selectedCityFromList;
 }
-function getFahrenhiet(){
+function getFahrenheit(){
     var list=document.getElementById("list");
     var selectedCityFromList=list.options[list.selectedIndex].value;
     var weatherInSelectedCity=weatherInCities.find(e=>{
