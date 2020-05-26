@@ -28,7 +28,7 @@ function getFahrenheit(){
     var weatherInSelectedCity=weatherInCities.find(e=>{
         return e.city==selectedCityFromList
 })
-document.getElementById("temp").innerText=(weatherInSelectedCity.temperature*9/5)-32;
+document.getElementById("temp").innerText=(weatherInSelectedCity.temperature*9/5)+32;
 }
 function getCelsius(){
     var list=document.getElementById("list");
