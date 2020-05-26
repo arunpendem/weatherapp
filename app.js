@@ -4,7 +4,8 @@ var day=date.getDay()
 var today=daysInWeek[day]
 var hours=date.getHours()
 var minutes=date.getMinutes()
-document.getElementById("dateAndTime").innerText='${today} ${hours}:${minutes}';
+var currentTime=today+" "+hours+":"+minutes;
+document.getElementById("dateAndTime").innerText=current;
 var weatherInCities=[
     {city:"Hyderabad,Telangana",climateCondition:"sunny",temperature:45},
     {city:"Bhopal,MadhyaPradesh",climateCondition:"sunny",temperature:40},
