@@ -12,6 +12,7 @@
 .right{
     right: 0;
     text-align: left;
+    background-color: darkslateblue;
 }
 .centered{
     position: absolute;
