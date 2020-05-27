@@ -10,7 +10,10 @@ var weatherInCities=[
     {city:"Bhopal,MadhyaPradesh",climateCondition:"sunny",precipitation:"23%",temperature:40,Latitude:"23.2599'N",Longitude:"77.4126'E"},
     {city:"Imphal,Manipur",climateCondition:"cloudy",precipitation:"90%",temperature:15,Latitude:"24.8170'N",Longitude:"93.9368'E"},
     {city:"Agarthala,Tripura",climateCondition:"Rainy",precipitation:"92%",temperature:22,Latitude:"23.8315'N",Longitude:"91.2868'E"},
-    {city:"Kohima,Nagaland",climateCondition:"Humid",precipitation:"100%",temperature:21,Latitude:"25.6751'N",Longitude:"94.1086'E"}
+    {city:"Kohima,Nagaland",climateCondition:"Humid",precipitation:"100%",temperature:21,Latitude:"25.6751'N",Longitude:"94.1086'E"},
+    {city:"Chennai,TamilNadu",climateCondition:"Sunny",precipitation:"10%",temperature:42,Latitude:"13.0827'N",Longitude:"80.2707'E"},
+    {city:"Bengalore,Karnataka",climateCondition:"Humid",precipitation:"64%",temperature:38,Latitude:"12.9716'N",Longitude:"77.5946'E"},
+    {city:"Mumbai,Maharashtra",climateCondition:"cloudy",precipitation:"78%",temperature:29,Latitude:"19.0760'N",Longitude:"72.8777'E"}
 ]
 function getWeather(){
     var list=document.getElementById("list")
